@@ -10,10 +10,11 @@ import matplotlib.pyplot as plt
 # --- 1. Define Physical Parameters ---
 m = 250.0      # Mass (kg) - Quarter of the car's weight
 k = 16000.0    # Spring Stiffness (N/m) - How hard the spring is
-c = 1000.0     # Damping Coefficient (N.s/m) - Shock absorber strength
+c = 1250.0     # Damping Coefficient (N.s/m) - Shock absorber strength
 
 # --- 2. Simulation Time Setup ---
 dt = 0.01                  # Time step (s) - Smaller is more accurate
+
 total_time = 5.0           # Total duration of simulation (s)
 t = np.arange(0, total_time, dt) # Time array from 0 to 5
 
